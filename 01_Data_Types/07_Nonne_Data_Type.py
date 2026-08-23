@@ -90,3 +90,5 @@ print("id(x) is id(y) = ", id(x) is id(y) ) # ;)
 # In Python, integers in the range -5 to 256 are interned, meaning that they are stored in a pool of interned objects. This means that when you create an integer literal within this range, Python returns a reference to the existing object in the pool.
 
 print("--------------------","Integer Interning","--------------------")
+
+
