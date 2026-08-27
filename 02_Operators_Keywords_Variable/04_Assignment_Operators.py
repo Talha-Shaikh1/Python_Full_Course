@@ -28,3 +28,20 @@ print("Division Assignment: x /= 3          ",x)  # Output: 5.0
 
 x //= 3  # Equivalent to x = x // 3
 print("Floor Division Assignment: x //= 3   ",x)  # Output: 1.0
+
+
+# walrus operator
+# The walrus operator := was introduced in Python 3.8.
+
+# It allows assignment and evaluation in a single expression.
+
+# Great for use in loops or conditional statements to reduce redundancy.
+
+# Example: if (n := len(data)) > 10: assigns and checks in one go.
+
+# It improves readability and efficiency when used wisely!
+
+if (user_input := input("Enter a Number")) and user_input.isdigit():
+    print("user_input = ",user_input)
+else:
+    print("enter a valid number!")
